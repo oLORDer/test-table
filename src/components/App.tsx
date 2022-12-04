@@ -10,7 +10,7 @@ const App: React.FC = () => {
       name: string;
       lastname: string;
       gender: string;
-      birsday: string;
+      birthday: string;
       position: string;
       email: string;
     }[]
