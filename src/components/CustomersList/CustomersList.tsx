@@ -212,8 +212,8 @@ const CustomesrList: React.ComponentType<IProps> = ({
                     value={values.email}
                     onChange={handleChange}
                   />
+                  {touched.email && errors.email && <p>{errors.email}</p>}
                 </label>
-                {touched.email && errors.email && <p>{errors.email}</p>}
                 <button className={s.btn} type="submit">
                   Create
                 </button>

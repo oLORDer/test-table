@@ -47,3 +47,15 @@
   border-radius: 5px;
   border: 2px solid rgb(38, 126, 152);
 }
+
+.form label {
+  position: relative;
+}
+
+.form p {
+  position: absolute;
+  top: -30px;
+  left: 5px;
+  font-size: 14px;
+  color: red;
+}
