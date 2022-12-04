@@ -1,0 +1,49 @@
+.table caption {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
+
+.remove {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: #fff;
+}
+
+.remove {
+  background-color: rgb(255, 2, 2);
+}
+
+.btn {
+  background-color: var(--accent-color);
+  padding: 13px 25px;
+  box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  border-radius: 30px;
+  border: 2px solid var(--accent-color);
+  color: var(--main-color);
+  min-width: 182px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form input {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(38, 126, 152);
+}
